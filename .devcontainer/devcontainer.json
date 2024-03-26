@@ -1,0 +1,31 @@
+{
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "./.devcontainer/updateContentCommand.sh",	
+  "postCreateCommand": "pip install --user -r requirements.txt && python manage.py migrate",
+  "postAttachCommand": {
+    "server": "python manage.py runserver"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "8000": {
+      "label": "Application"
+    }
+  },
+  "forwardPorts": [8000],
+  "features": {
+		"ghcr.io/dhoeric/features/flyctl:1": {
+			// Must be manually specified because of: https://github.com/dhoeric/features/issues/25
+			// Find new version with: curl -s https://api.github.com/repos/superfly/flyctl/releases/latest | jq -r '.tag_name'
+			"version": "0.2.23"
+		}
+	}
+}

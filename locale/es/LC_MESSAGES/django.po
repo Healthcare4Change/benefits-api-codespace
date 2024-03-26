@@ -1,0 +1,185 @@
+# Spanish Eligibility Text.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-30 14:22-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\authentication\models.py:47 .\programs\models.py:109
+#: .\screener\models.py:352
+msgid "email address"
+msgstr "Correo electrónico"
+
+#: .\benefits\settings.py:154
+msgid "US English"
+msgstr "Inglés de Estados Unidos"
+
+#: .\benefits\settings.py:155
+msgid "Spanish"
+msgstr "Español"
+
+#: .\benefits\settings.py:156
+msgid "Vietnamese"
+msgstr ""
+
+#: .\programs\programs\messages.py:9
+msgid "Household makes"
+msgstr "Vivienda genera"
+
+#: .\programs\programs\messages.py:11
+msgid "per year which must be less than"
+msgstr "por año, que debe ser menor de"
+
+#: .\programs\programs\messages.py:21
+msgid "Household resources must not exceed"
+msgstr "Los recursos del hogar no deben exceder"
+
+#: .\programs\programs\messages.py:31
+msgid "Must have a child between the ages of"
+msgstr "Debe tener hijo entre las edades de"
+
+#: .\programs\programs\messages.py:33 .\programs\programs\messages.py:45
+msgid "and"
+msgstr "y"
+
+#: .\programs\programs\messages.py:43
+msgid "Someone in the household must be between the ages of"
+msgstr "Alguien en el hogar debe estar entre las edades de"
+
+#: .\programs\programs\messages.py:55
+msgid "Someone in the household must be at least"
+msgstr "Alguien en el hogar debe tener al menos"
+
+#: .\programs\programs\messages.py:57
+msgid "years old"
+msgstr "años"
+
+#: .\programs\programs\messages.py:66
+msgid "Household must have"
+msgstr "Vivienda debe tener"
+
+#: .\programs\programs\messages.py:76
+msgid "Household must not have"
+msgstr "Vivienda  no debe tener"
+
+#: .\programs\programs\messages.py:86
+msgid "Must live in an eligible location"
+msgstr "Debe de vivir en localidad elegible"
+
+#: .\programs\programs\messages.py:95
+msgid "Someone in the household must have a disability"
+msgstr "Alguien en el vivienda debe tener una discapacidad"
+
+#: .\programs\programs\messages.py:104
+msgid "Someone in the household must not have health insurance"
+msgstr "Alguien en la vivienda no debe tener seguro médico"
+
+#: .\programs\programs\nfp\calculator.py:38
+#: .\programs\programs\nfp\calculator.py:45
+msgid "Calculated income of "
+msgstr "Los ingresos calculados de "
+
+#: .\programs\programs\nfp\calculator.py:39
+#: .\programs\programs\nfp\calculator.py:47
+msgid " for a household with "
+msgstr " para un hogar con "
+
+#: .\programs\programs\nfp\calculator.py:41
+msgid " members is above the income limit of "
+msgstr " miembros está por encima del límite de ingresos de "
+
+#: .\programs\programs\nfp\calculator.py:49
+msgid " members is below the income limit of "
+msgstr " miembros está por debajo del límite de ingresos de "
+
+#: .\screener\communications\cell.py:14 .\screener\communications\email.py:18
+msgid "Thank you for using MyFriendBen. Click here to review your results."
+msgstr "Gracias por usar MyFriendBen.  Cliquee aqui revisar sus resultados."
+
+#: .\screener\communications\email.py:16
+msgid "Screener Results from My Friend Ben"
+msgstr "Resultados de la evaluación de My Friend Ben"
+
+#~ msgid "To qualify for CCCAP a family must have at least one child under 13 "
+#~ msgstr ""
+#~ "Para reunir los requisitos para participar en el programa CCCAP, la "
+#~ "familia debe tener por lo menos un hijo menor de 13 "
+
+#~ msgid "years old (19 years old if special needs or disability)."
+#~ msgstr ""
+#~ "años (19 años en caso de tener necesidades especiales o alguna "
+#~ "discapacidad)."
+
+#~ msgid "To qualify for CCCAP a family must reside in Colorado. "
+#~ msgstr ""
+#~ "Para reunir los requisitos para participar en el programa CCCAP, la "
+#~ "familia debe residir en Colorado. "
+
+#~ msgid " was not found in the list of known counties."
+#~ msgstr " no se encontró en la lista de condados conocidos."
+
+#~ msgid " for "
+#~ msgstr " para "
+
+#~ msgid ""
+#~ "Individuals who are eligible for Health First Colorado (MEDICAID) are not "
+#~ "eligible for CHP+"
+#~ msgstr ""
+#~ "Las personas que reúnen los requisitos para Health First Colorado "
+#~ "(MEDICAID) no son elegibles para CHP+"
+
+#~ msgid "Children age 18 and under and pregnant women age 19 and over."
+#~ msgstr "Niños de 18 años o menores y las embarazadas de 19 años o mayores."
+
+#~ msgid ""
+#~ "To qualify for the My Denver card must live in Denver County or have a "
+#~ "child who attends a DPS school."
+#~ msgstr ""
+#~ "Para ara reunir los requisitos para la tarjeta My Denver, debe vivir en "
+#~ "el condado de Denver o tener un hijo que concurra a una escuela de DPS."
+
+#~ msgid "The zipcode "
+#~ msgstr "El código postal "
+
+#~ msgid " is within Denver County."
+#~ msgstr " está dentro del condado de Denver."
+
+#~ msgid "The My Denver card is limited to youth aged 5-18."
+#~ msgstr ""
+#~ "Los beneficiarios de la tarjeta MY Denver deben tener entre 5 y 18 años."
+
+#~ msgid "To qualify for RTD live you must live in the RTD service area."
+#~ msgstr ""
+#~ "Para reunir los requisitos para RTD LiVE, debe vivir en el área de "
+#~ "servicio de RTD."
+
+#~ msgid " is within the RTD service area."
+#~ msgstr " está dentro del área de servicio de RTD."
+
+#~ msgid ""
+#~ "Households must have at least one dependent child under the age of 18, "
+#~ msgstr ""
+#~ "Los hogares deben tener al menos un hijo dependiente menor de 18 años, "
+
+#~ msgid "and have primary (more than 50%) custody of that child."
+#~ msgstr "y tener la custodia principal (más del 50 %) de ese hijo."
+
+#~ msgid "Household has at least one dependent child under the age of 18"
+#~ msgstr "El hogar tiene al menos un hijo dependiente menor de 18 años"
+
+#~ msgid " must have a monthly household income below "
+#~ msgstr " deben tener ingresos mensuales por debajo de "
+
+#~ msgid ". Your TANF qualifying household income is "
+#~ msgstr ""
+#~ ". Los ingresos del hogar elegibles para el programa TANF ascienden a "

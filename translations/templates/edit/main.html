@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block content %}
+<h2>{{ translation.label }}</h2>
+<form hx-post="{{ translation.id }}" hx-swap="innerHTML">
+	{% include "./form.html" with form=label_form %}
+</form>
+{% include "./langs.html" %}
+<button
+	hx-delete="{{ translation.id }}"
+	hx-confirm="This is perminant"
+	hx-swap="innerHTML"
+	hx-target="#delete-errors"
+>
+	Delete
+</button>
+<div id="delete-errors"></div>
+{% endblock content %}
