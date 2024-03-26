@@ -40,7 +40,7 @@ DEBUG = config('DJANGO_DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = ['*']
 
-CORS_ORIGIN_ALLOW_ALL = True
+CSRF_TRUSTED_ORIGINS = [ 'http://localhost:8000' ]
 
 AUTH_USER_MODEL = 'authentication.User'
 
