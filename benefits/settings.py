@@ -38,9 +38,9 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DJANGO_DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['mfb-api.fly.dev']
 
-CSRF_TRUSTED_ORIGINS = [ 'http://localhost:8000' ]
+CSRF_TRUSTED_ORIGINS = [ 'https://*.mfb-api.fly.dev' ] 
 
 AUTH_USER_MODEL = 'authentication.User'
 
@@ -125,15 +125,11 @@ WSGI_APPLICATION = 'benefits.wsgi.application'
 DB_HOST = config('DB_HOST', default='localhost')
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('DB_NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASS'),
-        'HOST': DB_HOST,
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": "mydatabase",
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
