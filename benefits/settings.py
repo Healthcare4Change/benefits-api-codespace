@@ -38,9 +38,9 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DJANGO_DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['mfb-api.fly.dev']
+ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = [ 'https://*.mfb-api.fly.dev' ] 
+CSRF_TRUSTED_ORIGINS = [ 'https://*.mfb-backend.fly.dev']
 
 AUTH_USER_MODEL = 'authentication.User'
 
@@ -130,7 +130,7 @@ DATABASES = {
         'NAME': config('DB_NAME'),
         'USER': config('DB_USER'),
         'PASSWORD': config('DB_PASS'),
-        'HOST': DB_HOST,
+        'HOST': config('DB_HOST'),
     }
 }
 
