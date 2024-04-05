@@ -38,9 +38,9 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DJANGO_DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','backend.healthcareforchange.org']
 
-CSRF_TRUSTED_ORIGINS = [ 'https://*.mfb-backend.fly.dev', 'https://mfbbackend.healthcareforchange.org']
+CSRF_TRUSTED_ORIGINS = ['https://mfbbackend.healthcareforchange.org']
 
 AUTH_USER_MODEL = 'authentication.User'
 
