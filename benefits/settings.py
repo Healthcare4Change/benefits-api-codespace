@@ -40,7 +40,7 @@ DEBUG = config('DJANGO_DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = [ 'https://*.mfb-backend.fly.dev']
+CSRF_TRUSTED_ORIGINS = [ 'https://*.mfb-backend.fly.dev', 'https://mfbbackend.healthcareforchange.org']
 
 AUTH_USER_MODEL = 'authentication.User'
 
